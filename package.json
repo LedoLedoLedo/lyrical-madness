@@ -25,7 +25,11 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-console": "off",
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -38,5 +42,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "eslint": "^8.24.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
